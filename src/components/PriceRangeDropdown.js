@@ -9,17 +9,14 @@ const PriceRangeDropdown = () => {
     const [isOpen, setIsOpen] = useState(false);
 
     const prices = [
-      { value: "Price range (any)" },
-      { value: "9100000000 - 10000000000" },
-      { value: "8100000000 - 9000000000" },
-      { value: "7100000000 - 8000000000" },
-      { value: "6100000000 - 7000000000" },
-      { value: "5100000000 - 6000000000" },
-      { value: "4100000000 - 5000000000" },
-      { value: "3100000000 - 4000000000" },
-      { value: "2100000000 - 3000000000" },
-      { value: "1100000000 - 2000000000" },
-      { value: "500000000 - 1000000000" },
+      { value: "Price range (any)" },      
+      { value: "> 10000000000" },
+      { value: "7600000000 - 10000000000" },
+      { value: "5100000000 - 7500000000" },
+      { value: "2600000000 - 5000000000" },
+      { value: "1100000000 - 2500000000" },
+      { value: "510000000 - 1000000000" },
+      { value: "< 500000000 " },
     ];
     return (
       <Menu as="div" className="dropdown relative">
